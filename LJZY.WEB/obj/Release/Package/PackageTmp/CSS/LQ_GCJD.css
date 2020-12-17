@@ -1,0 +1,86 @@
+﻿.bx {
+    width: 180px;
+    height: 30px;
+    border: 1px solid #95B8E7;
+    background: #ECF4FF;
+    text-align: center;
+    overflow: hidden;
+    /*line-height: 28px;*/
+}
+
+.btnGetType {
+    outline: none;
+    border: 1px solid #95B8E7;
+    border-radius: 2px;
+    /*height: 30px;*/
+    padding-bottom: 2px;
+    color: #000;
+    font-size: 12px;
+    background: #E9F1FC;
+    background: -webkit-gradient(linear, left top, left bottom, from(#E9F1FC), to(#b6d6ff));
+    background: -moz-linear-gradient(top, #E9F1FC, #b6d6ff);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E9F1FC', endColorstr='#b6d6ff',gradientType=0);
+}
+
+.btnAdd, .btnShou, .btnShang, .btnXia, .btnWei, .btnDel {
+    border: none;
+}
+#designSelect .datagrid-header, #designSelect .datagrid-pager {
+    background: #e3efff;
+}
+
+#designSelect2 .datagrid-header, #designSelect2 .datagrid-pager {
+    background: #e3efff;
+}
+
+.search_div {
+    height: 40px;
+    width: 100%;
+    background: #e3efff;
+    float: left;
+}
+
+#SelectWhere {
+    display: inline-block;
+    /*width: 200px;*/
+    height: 28px;
+    /*border: 1px solid #95B8E7;*/
+    vertical-align: middle;
+    /*background: #fff;*/
+}
+.groups {
+    display: inline-block;
+    padding: 7px;
+    position: relative;
+}
+
+.groups:hover {
+    background: #ffe48d;
+}
+
+.groups:hover .close {
+    display: block;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #f00;
+    display: none;
+    cursor: pointer;
+}
+
+#SelectWhere2 {
+    display: inline-block;
+    /*width: 200px;*/
+    height: 28px;
+    /*border: 1px solid #95B8E7;*/
+    vertical-align: middle;
+    /*background: #fff;*/
+}
+.btnAdd, .btnShou, .btnShang, .btnXia, .btnWei, .btnDel {
+    width:100px;
+    height:30px;
+    border: none;
+}

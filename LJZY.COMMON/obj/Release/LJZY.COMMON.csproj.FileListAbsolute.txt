@@ -1,0 +1,8 @@
+E:\ProjectDemo\录井作业\LJZY.COMMON\bin\Release\LJZY.COMMON.dll
+E:\ProjectDemo\录井作业\LJZY.COMMON\bin\Release\LJZY.COMMON.pdb
+E:\ProjectDemo\录井作业\LJZY.COMMON\bin\Release\Telerik.Windows.Controls.dll
+E:\ProjectDemo\录井作业\LJZY.COMMON\obj\Release\LJZY.COMMON.csproj.CoreCompileInputs.cache
+E:\ProjectDemo\录井作业\LJZY.COMMON\obj\Release\LJZY.COMMON.csproj.CopyComplete
+E:\ProjectDemo\录井作业\LJZY.COMMON\obj\Release\LJZY.COMMON.dll
+E:\ProjectDemo\录井作业\LJZY.COMMON\obj\Release\LJZY.COMMON.pdb
+E:\ProjectDemo\录井作业\LJZY.COMMON\obj\Release\LJZY.COMMON.csprojAssemblyReference.cache

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9C5712BD-B555-4F25-83D8-F6A74419EEC9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LJZY.DAO</RootNamespace>
+    <AssemblyName>LJZY.DAO</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=2.112.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExtendsDLL\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.Windows.Controls.DataVisualization">
+      <HintPath>..\ExtendsDLL\Telerik\Telerik.Windows.Controls.DataVisualization.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Column\ColumnDAO.cs" />
+    <Compile Include="LQGL\LQ_FILEDAO.cs" />
+    <Compile Include="LQGL\LQGLDAO.cs" />
+    <Compile Include="LQGL\LQ_DJCHYAQHSEDAO.cs" />
+    <Compile Include="LQGL\LQ_GCJDDAO.cs" />
+    <Compile Include="LQGL\LQ_LJXMDAO.cs" />
+    <Compile Include="LQGL\LQ_RYSBDAO.cs" />
+    <Compile Include="LQGL\LQ_WJKPDAO.cs" />
+    <Compile Include="LQGL\LQ_RYSJKDAO.cs" />
+    <Compile Include="LQGL\LQ_SBGLDAO.cs" />
+    <Compile Include="LQGL\LQ_SCDTDAO.cs" />
+    <Compile Include="LQGL\LQ_SCPGDAO.cs" />
+    <Compile Include="Map\MapDAO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SYSTEM\HISTDAO.cs" />
+    <Compile Include="SYSTEM\MenuDAO.cs" />
+    <Compile Include="SYSTEM\UserDAO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LJZY.COMMON\LJZY.COMMON.csproj">
+      <Project>{e9484bcf-d8d1-49d3-978e-1ca0504c7956}</Project>
+      <Name>LJZY.COMMON</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LJZY.DBUtility\LJZY.DBUtility.csproj">
+      <Project>{ec5d8bdc-665c-4475-ba77-c8c5de5d855a}</Project>
+      <Name>LJZY.DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LJZY.MODEL\LJZY.MODEL.csproj">
+      <Project>{887bd475-9155-4572-badd-c9d5392a65b8}</Project>
+      <Name>LJZY.MODEL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

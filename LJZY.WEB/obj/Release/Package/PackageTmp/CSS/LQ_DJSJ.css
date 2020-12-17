@@ -1,0 +1,161 @@
+﻿.bx {
+    width: 100px;
+    height:30px;
+    border: 1px solid #95B8E7;
+    background: #ECF4FF;
+    text-align: center;
+    overflow:hidden;
+    line-height:28px;
+}
+.bxCompany{background: #F1EFE2;height:28px;}
+.bxinput {
+    /*width:156px;*/
+}
+
+body {
+    display: block;
+    margin: 0px;
+    padding: 5px;
+}
+
+#SelectWhere {
+    display: inline-block;
+    /*width: 200px;*/
+    height: 28px;
+    /*border: 1px solid #95B8E7;*/
+    vertical-align: middle;
+    /*background: #fff;*/
+}
+
+.groups {
+    display: inline-block;
+    padding: 7px;
+    position: relative;
+}
+
+    .groups:hover {
+        background: #ffe48d;
+    }
+
+        .groups:hover .close {
+            display: block;
+        }
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #f00;
+    display: none;
+    cursor: pointer;
+}
+.btnAdd,.btnShou,.btnShang,.btnXia,.btnWei,.btnDel{
+    border:none;
+}
+.tdCompany>span{width:40px;}
+.pagin-position{
+    position: relative;
+    top: 680px;
+}
+.dataTableHei{
+    height:780px;
+}
+.btnGetType{
+    outline: none;
+    border: 1px solid #95B8E7;
+    border-radius: 2px;
+    height: 30px;
+    padding-bottom: 2px;
+    color:#000;
+    font-size:12px;
+    background: #E9F1FC;
+    background: -webkit-gradient(linear, left top, left bottom, from(#E9F1FC), to(#b6d6ff));
+    background: -moz-linear-gradient(top,  #E9F1FC,  #b6d6ff);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#E9F1FC', endColorstr='#b6d6ff',gradientType=0);
+}
+#designSelect .datagrid-header,#designSelect .datagrid-pager{
+            background:#e3efff;
+		}
+#ff table{
+    border-collapse: inherit;border-spacing: 4px;
+}
+#designUp table{
+    border-collapse: inherit;border-spacing: 4px;
+}
+#designUp>table,
+#inputContent,
+#inputContent1,
+#inputContent2,
+#inputContent3,
+#inputContent4,
+#inputContent5,
+#inputContent6,
+#inputContent7{
+    height: 34px;border: 1px solid #95B8E7;position: relative;
+}
+#inputContent>span,
+#inputContent1>span,
+#inputContent2>span,
+#inputContent3>span,
+#inputContent4>span,
+#inputContent5>span,
+#inputContent6>span,
+#inputContent7>span{
+    display: inline-block;
+    width: 80%;
+    line-height: 34px;
+    font-size: 14px;
+    color: #666;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+#inputContent>button,
+#inputContent1>button,
+#inputContent2>button,
+#inputContent3>button,
+#inputContent4>button,
+#inputContent5>button,
+#inputContent6>button,
+#inputContent7>button{
+    height:34px;width:94px;position: absolute;right: 0;border-radius: 0;border: 0;border-left: 1px solid #95B8E7;
+}
+#testListAction,
+#testListAction1,
+#testListAction2,
+#testListAction3,
+#testListAction4,
+#testListAction5,
+#testListAction6,
+#testListAction7{
+    height: 36px;
+    width: 58px;
+    /* position: relative; */
+    /* right: 0; */
+    border-radius: 0;
+}
+
+.processcontainer{
+            width:450px;
+            border:1px solid #6C9C2C;
+            height:25px;
+        }
+#processbar{
+    background:#95CA0D;
+    float:left;
+    height:100%;
+    text-align:center;
+    line-height:150%;
+}
+
+#demoListBaba{
+    width:100%;table-layout:fixed;text-align:center;border: 1px solid #95B8E7;
+}
+
+
+
+
+
+
+

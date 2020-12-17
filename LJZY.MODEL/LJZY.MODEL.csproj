@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{887BD475-9155-4572-BADD-C9D5392A65B8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LJZY.MODEL</RootNamespace>
+    <AssemblyName>LJZY.MODEL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.Windows.Controls.DataVisualization">
+      <HintPath>..\ExtendsDLL\Telerik\Telerik.Windows.Controls.DataVisualization.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BDMap.cs" />
+    <Compile Include="Category.cs" />
+    <Compile Include="JsonClass.cs" />
+    <Compile Include="LoginUser.cs" />
+    <Compile Include="LQ_FW.cs" />
+    <Compile Include="LQ_FWFP.cs" />
+    <Compile Include="LQ_GCJD.cs" />
+    <Compile Include="LQ_GCJD_CZ.cs" />
+    <Compile Include="LQ_GCJD_ZT.cs" />
+    <Compile Include="LQ_JDLXRY.cs" />
+    <Compile Include="LQ_RSList.cs" />
+    <Compile Include="LQ_RYDT.cs" />
+    <Compile Include="LQ_RYSB.cs" />
+    <Compile Include="LQ_RYSBCount.cs" />
+    <Compile Include="LQ_SBFP.cs" />
+    <Compile Include="LQ_DJCHYAQHSE.cs" />
+    <Compile Include="LQ_DJSJ.cs" />
+    <Compile Include="LQ_DJSJFILE.cs" />
+    <Compile Include="LQ_EJML.cs" />
+    <Compile Include="LQ_FILE.cs" />
+    <Compile Include="LQ_LJXM.cs" />
+    <Compile Include="LQ_RYFP.cs" />
+    <Compile Include="LQ_RYSJK.cs" />
+    <Compile Include="LQ_SB_CL.cs" />
+    <Compile Include="LQ_SB_DHFX.cs" />
+    <Compile Include="LQ_SB_GCCSY.cs" />
+    <Compile Include="LQ_SB_WX.cs" />
+    <Compile Include="LQ_SB_ZHY.cs" />
+    <Compile Include="LQ_SB_ZSY.cs" />
+    <Compile Include="LQ_SCDT.cs" />
+    <Compile Include="LQ_SCPG.cs" />
+    <Compile Include="LQ_SJRZ.cs" />
+    <Compile Include="LQ_WJKP.cs" />
+    <Compile Include="LQ_WJMX.cs" />
+    <Compile Include="LQ_XMBPG.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RY_Count.cs" />
+    <Compile Include="SB_FW_Count.cs" />
+    <Compile Include="SCDTList.cs" />
+    <Compile Include="SCJSK_Count.cs" />
+    <Compile Include="Sys_Dictionary.cs" />
+    <Compile Include="Sys_HIST.cs" />
+    <Compile Include="Sys_Menu.cs" />
+    <Compile Include="Sys_User.cs" />
+    <Compile Include="YEARS.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

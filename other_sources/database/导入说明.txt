@@ -1,0 +1,5 @@
+在Oracle中运行OracleSQL.sql
+在cmd中输入导入命令：
+	imp LJZY/123456@orcl file=D:\本地路径\LJZY.dmp fromuser=LJZY touser=LJZY constraints=N ignore=y
+	imp KLLOGT/123456@orcl file=D:\本地路径\KLLOGT.dmp fromuser=KLLOGT touser=KLLOGT constraints=N ignore=y STATISTICS=NONE
+

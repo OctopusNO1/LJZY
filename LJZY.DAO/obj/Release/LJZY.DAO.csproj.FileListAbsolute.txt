@@ -1,0 +1,17 @@
+E:\ProjectDemo\录井作业\LJZY.DAO\bin\Release\LJZY.DAO.dll
+E:\ProjectDemo\录井作业\LJZY.DAO\bin\Release\LJZY.DAO.pdb
+E:\ProjectDemo\录井作业\LJZY.DAO\bin\Release\LJZY.COMMON.dll
+E:\ProjectDemo\录井作业\LJZY.DAO\bin\Release\LJZY.DBUtility.dll
+E:\ProjectDemo\录井作业\LJZY.DAO\bin\Release\LJZY.MODEL.dll
+E:\ProjectDemo\录井作业\LJZY.DAO\bin\Release\Oracle.DataAccess.dll
+E:\ProjectDemo\录井作业\LJZY.DAO\bin\Release\Telerik.Windows.Controls.DataVisualization.dll
+E:\ProjectDemo\录井作业\LJZY.DAO\bin\Release\Telerik.Windows.Controls.dll
+E:\ProjectDemo\录井作业\LJZY.DAO\bin\Release\Telerik.Windows.Data.dll
+E:\ProjectDemo\录井作业\LJZY.DAO\bin\Release\LJZY.COMMON.pdb
+E:\ProjectDemo\录井作业\LJZY.DAO\bin\Release\LJZY.DBUtility.pdb
+E:\ProjectDemo\录井作业\LJZY.DAO\bin\Release\LJZY.MODEL.pdb
+E:\ProjectDemo\录井作业\LJZY.DAO\obj\Release\LJZY.DAO.csprojAssemblyReference.cache
+E:\ProjectDemo\录井作业\LJZY.DAO\obj\Release\LJZY.DAO.csproj.CoreCompileInputs.cache
+E:\ProjectDemo\录井作业\LJZY.DAO\obj\Release\LJZY.DAO.csproj.CopyComplete
+E:\ProjectDemo\录井作业\LJZY.DAO\obj\Release\LJZY.DAO.dll
+E:\ProjectDemo\录井作业\LJZY.DAO\obj\Release\LJZY.DAO.pdb

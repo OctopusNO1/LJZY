@@ -1,0 +1,45 @@
+﻿.lf-t-box li {
+    display: inline-block;
+}
+
+.panelbody-box {
+    border: 1px solid #95B8E7;
+    border-radius: 5px;
+    height: calc(100% - 10px);
+    padding: 5px;
+    overflow-y: auto;
+}
+
+.table-box {
+    position: relative;
+    margin:10px 0;
+}
+.table-box-title{
+    position: absolute;
+    top: 5px;
+    left:50px;
+    z-index: 10;
+}
+.table-box-title > select {
+   display:inline-block;
+   vertical-align:middle;
+   height:23px;
+   margin-right:30px;
+}
+.table-box-title > b {
+    font-weight: bold;
+    color: #0E2D5F;
+}
+.btnGetType {
+    outline: none;
+    border: 1px solid #95B8E7;
+    border-radius: 2px;
+    height: 30px;
+    padding-bottom: 2px;
+    color: #000;
+    font-size: 12px;
+    background: #E9F1FC;
+    background: -webkit-gradient(linear, left top, left bottom, from(#E9F1FC), to(#b6d6ff));
+    background: -moz-linear-gradient(top, #E9F1FC, #b6d6ff);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E9F1FC', endColorstr='#b6d6ff',gradientType=0);
+}

@@ -1,0 +1,458 @@
+﻿body{
+    font-family:'宋体'
+}
+.dataListTitle{
+    width:100%;
+    height:100px;
+    text-align:center;
+}
+#dataList{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #000;
+    width:1375px;
+    text-align:center;
+}
+#dataList li{
+    border:none;
+}
+#dataList th,#dataList td{
+    border:1px solid #000;
+}
+#dataList>tbody input{
+    width: 100%;
+    line-height: 20px;
+    box-sizing: border-box;
+    border:none;
+    text-align:center;
+}
+#dataList>tbody>tr>td{
+    text-align:left;
+}
+#dataList>tbody>tr>td.wd73px>input{
+    
+    /*line-height: 60px;*/
+}
+#dataList>tbody td input:focus{
+    border:2px solid #5BA532;
+    height:20px;
+    box-sizing:border-box;
+}
+#dataList>tbody li{
+    border-bottom: 1px solid #000;
+}
+#dataList>tbody  ul>li:last-child{
+    border-bottom: none;
+}
+/*#dataList>tbody input:focus{
+    border:2px solid #5BA532;
+}*/
+
+.tdTips{
+    /*width:200px;
+    height:300px;*/
+    /*display:none;*/
+    background:#FFFFE1;
+}
+.bx{
+    width: 80px;
+    height: 30px;
+    border: 1px solid #95B8E7;
+    background: #ECF4FF;
+    text-align: center;
+    overflow: hidden;
+}
+.btnGetType {
+    outline: none;
+    border: 1px solid #95B8E7;
+    border-radius: 2px;
+    height: 30px;
+    padding-bottom: 2px;
+    color: #000;
+    font-size: 12px;
+    background: #E9F1FC;
+    background: -webkit-gradient(linear, left top, left bottom, from(#E9F1FC), to(#b6d6ff));
+    background: -moz-linear-gradient(top, #E9F1FC, #b6d6ff);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E9F1FC', endColorstr='#b6d6ff',gradientType=0);
+}
+
+.btnAdd, .btnShou, .btnShang, .btnXia, .btnWei, .btnDel {
+    border: none;
+}
+#designSelect .datagrid-header, #designSelect .datagrid-pager {
+    background: #e3efff;
+}
+
+#designSelect2 .datagrid-header, #designSelect2 .datagrid-pager {
+    background: #e3efff;
+}
+
+.search_div {
+    height: 40px;
+    width: 100%;
+    background: #e3efff;
+    float: left;
+}
+
+#SelectWhere {
+    display: inline-block;
+    /*width: 200px;*/
+    height: 28px;
+    /*border: 1px solid #95B8E7;*/
+    vertical-align: middle;
+    /*background: #fff;*/
+}
+.groups {
+    display: inline-block;
+    padding: 7px;
+    position: relative;
+}
+
+.groups:hover {
+    background: #ffe48d;
+}
+
+.groups:hover .close {
+    display: block;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #f00;
+    display: none;
+    cursor: pointer;
+}
+
+#SelectWhere2 {
+    display: inline-block;
+    /*width: 200px;*/
+    height: 28px;
+    /*border: 1px solid #95B8E7;*/
+    vertical-align: middle;
+    /*background: #fff;*/
+}
+
+.wd5 {
+    width: 5%;
+}
+
+.wd6 {
+    width: 6%;
+}
+
+.wd8 {
+    width: 8%;
+}
+
+.wd9 {
+    width: 9%;
+}
+.wd10 {
+    width: 10%;
+}
+
+.wd12 {
+    width: 12%;
+}
+
+.wd14 {
+    width: 14%;
+}
+
+.wd15 {
+    width: 15%;
+}
+.wd16 {
+    width: 16%;
+}
+.wd19 {
+    width: 19%;
+}
+
+.wd20 {
+    width: 20%;
+}
+
+.wd24 {
+    width: 24%;
+}
+
+
+.wd25 {
+    width: 25%;
+}
+.wd26 {
+    width: 26%;
+}
+.wd28{
+    width: 28.5%;
+}
+.wd30 {
+    width: 30%;
+}
+.wd31{
+    width:31%;
+}
+.wd32{
+    width: 32%;
+}
+.wd34{
+    width: 34%;
+}
+.wd35{
+    width: 35%;
+}
+.wd38{
+    width: 38%;
+}
+
+.wd40 {
+    width: 40%;
+}
+
+.wd49 {
+    width: 49%;
+}
+
+.wd50 {
+    width: 50%;
+}
+.wd59-7{
+    width: 59.7%;
+}
+.wd52{
+    width: 52%;
+}
+.wd55{
+    width: 55%;
+}
+.wd59{
+    width: 59%;
+}
+.wd60 {
+    width: 60%;
+}
+.wd62{
+    width: 62%;
+}
+.wd64{
+    width: 64%;
+}
+.wd83{
+    width: 83%;
+}
+
+.pl30px {
+    padding-left: 30px;
+}
+
+.wd40px {
+    width: 40px;
+}
+.wd50-5px {
+    width: 50.5px;
+}
+.wd55px {
+    width: 55px;
+}
+.wd58px {
+    width: 58px;
+}
+.wd60px {
+    width:120px;
+}
+.wd73px {
+    width: 73px;
+}
+.wd76px {
+    width: 76px;
+}
+.wd80px {
+    width: 80px;
+}
+.wd81px {
+    width: 81px;
+}
+.wd82px {
+    width: 82px;
+}
+.wd84px {
+    width: 84px;
+}
+.wd90px {
+    width: 90px;
+}
+.wd92px {
+    width: 92px;
+}
+.wd93px {
+    width: 93px;
+}
+.wd94px {
+    width: 94px;
+}
+.wd95px {
+    width: 95px;
+}
+.wd100px {
+    width: 100px;
+}
+.wd101px {
+    width: 101px;
+}
+.wd109px {
+    width: 109px;
+}
+.wd110px {
+    width: 110px;
+}
+.wd113px {
+    width: 113px;
+}
+.wd120px {
+    width: 120px;
+}
+.wd125px {
+    width: 125px;
+}
+.wd130px {
+    width: 130px;
+}
+.wd138px {
+    width: 138px;
+}
+.wd140px {
+    width: 140px;
+}
+.wd145px {
+    width: 145px;
+}
+.wd149px {
+    width: 149px;
+}
+.wd150px {
+    width: 150px;
+}
+.wd155px {
+    width: 155px;
+}
+.wd158px {
+    width: 158px;
+}
+.wd160px {
+    width: 160px;
+}
+.wd162px {
+    width: 162px;
+}
+.wd164px {
+    width: 164px;
+}
+.wd167px {
+    width: 167px;
+}
+.wd176px {
+    width: 176px;
+}
+.wd178px {
+    width: 178px;
+}
+.wd180px {
+    width: 180px;
+}
+.wd188px {
+    width: 188px;
+}
+.wd191px {
+    width: 191px;
+}
+.wd200px {
+    width: 200px;
+}
+.wd220px {
+    width: 220px;
+}
+.wd250px {
+    width: 250px;
+}
+.wd258px {
+    width: 258px;
+}
+
+.wd264px {
+    width: 264px;
+}
+.wd270px {
+    width: 270px;
+}
+.wd280px {
+    width: 280px;
+}
+.wd283px {
+    width: 283px;
+}
+.wd284px {
+    width: 284px;
+}
+.wd289px {
+    width: 289px;
+}
+.wd298px {
+    width: 298px;
+}
+.wd300px {
+    width: 300px;
+}
+.wd302px {
+    width: 302px;
+}
+.wd310px {
+    width: 310px;
+}
+.wd350px {
+    width: 350px;
+}
+.wd360px {
+    width: 360px;
+}
+.wd378px {
+    width: 378px;
+}
+.wd400px {
+    width: 400px;
+}
+.wd440px {
+    width: 440px;
+}
+.wd454px {
+    width: 454px;
+}
+.wd470px {
+    width: 470px;
+}
+.wd495px {
+    width: 495px;
+}
+.wd550px {
+    width: 550px;
+}
+.wd834px {
+    width: 834px;
+}
+.wd990px {
+    width: 990px;
+}
+/*头部*/
+#ff {
+   margin-right:30px;
+}
+#upCommit {
+    width:50px;
+    height:19px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#E9F1FC), to(#b6d6ff));
+    outline: none;
+    border: 1px solid #95B8E7;
+    border-radius: 2px;
+}

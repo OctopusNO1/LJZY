@@ -1,0 +1,39 @@
+﻿body {
+    display: block;
+    margin: 0px;
+}
+
+#his_list {
+    -webkit-padding-start: 10px;
+}
+
+ #his_list li {
+        list-style: none;
+        line-height: 24px;
+        width: auto;
+        border: 1px dashed #a9a8a8;
+        border-left-style: none;
+        border-right-style: none;
+        border-top-style: none;
+    }
+
+#his_list li a {
+            text-decoration: none;
+            color: black;
+        }
+.btnGetType{
+    background: url('../Image/topbg.png');
+    outline: none;
+    border: 1px solid #95B8E7;
+    border-radius: 2px;
+    height: 26px;
+    padding-bottom: 2px;
+}
+.btnIndex{
+    font-size:12px;
+    /*border-radius:4px;*/
+    background: #E9F1FC;
+    background: -webkit-gradient(linear, left top, left bottom, from(#E9F1FC), to(#b6d6ff));
+    background: -moz-linear-gradient(top,  #E9F1FC,  #b6d6ff);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#E9F1FC', endColorstr='#b6d6ff',gradientType=0);
+}

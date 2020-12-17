@@ -1,0 +1,8 @@
+E:\ProjectDemo\录井作业\LJZY.DBUtility\bin\Release\LJZY.DBUtility.dll
+E:\ProjectDemo\录井作业\LJZY.DBUtility\bin\Release\LJZY.DBUtility.pdb
+E:\ProjectDemo\录井作业\LJZY.DBUtility\bin\Release\Oracle.DataAccess.dll
+E:\ProjectDemo\录井作业\LJZY.DBUtility\obj\Release\LJZY.DBUtility.csproj.CoreCompileInputs.cache
+E:\ProjectDemo\录井作业\LJZY.DBUtility\obj\Release\LJZY.DBUtility.csproj.CopyComplete
+E:\ProjectDemo\录井作业\LJZY.DBUtility\obj\Release\LJZY.DBUtility.dll
+E:\ProjectDemo\录井作业\LJZY.DBUtility\obj\Release\LJZY.DBUtility.pdb
+E:\ProjectDemo\录井作业\LJZY.DBUtility\obj\Release\LJZY.DBUtility.csprojAssemblyReference.cache

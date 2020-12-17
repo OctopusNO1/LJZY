@@ -1,0 +1,231 @@
+﻿
+#SelectWhere {
+    display: inline-block;
+    /*width: 200px;*/
+    height: 28px;
+    /*border: 1px solid #95B8E7;*/
+    vertical-align: middle;
+    /*background: #fff;*/
+}
+
+.groups {
+    display: inline-block;
+    padding: 7px;
+    position: relative;
+}
+
+    .groups:hover {
+        background: #ffe48d;
+    }
+
+        .groups:hover .close {
+            display: block;
+        }
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #f00;
+    display: none;
+    cursor: pointer;
+}
+
+
+panel-tool-collapse {
+    padding-right: 100px;
+}
+
+.anchorBL, .BMap_cpyCtrl, .BMap_scaleCtrl {
+    display: none;
+}
+.btnGetType{
+    outline: none;
+    border: 1px solid #95B8E7;
+    border-radius: 2px;
+    height: 28px;
+    padding-bottom: 2px;
+    font-size:12px;
+    background: #E9F1FC;
+    background: -webkit-gradient(linear, left top, left bottom, from(#E9F1FC), to(#b6d6ff));
+    background: -moz-linear-gradient(top,  #E9F1FC,  #b6d6ff);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#E9F1FC', endColorstr='#b6d6ff',gradientType=0);
+}
+.navSearchSpan{
+    margin-top:1px;
+}
+
+
+/*小地图*/
+.hide{
+    display:none;
+}
+#showMap {
+   position:relative;
+}
+.rightButton {
+   position:absolute;
+   right:0;
+   top:0;
+       background: rgb(227, 239, 255);
+   border-left:2px solid   #95B8E7;
+}
+.smallButton ul {
+  padding:0;
+}
+.smallButton ul li {
+  list-style:none;
+
+}
+    .smallButton ul li button {
+        width:28px;
+        height:100px;
+        margin-left:2px;
+        padding:0 5px;
+        border-radius:3px;
+        border: 1px solid #95B8E7;
+        background: -webkit-gradient(linear, left top, left bottom, from(#E9F1FC), to(#b6d6ff));
+        outline:none;
+    }
+ .smallButton ul li button:hover {
+   background:#E5F0FC;    
+}
+#showMap .showReact {
+    width:300px;
+    height:350px;
+    position:absolute;
+    top:20px;
+    right:200px;
+    border-radius:10px;
+    border:3px solid #814084;
+    background:rgba(255,255,255,0.5)
+}
+.JDTTJ {
+    width:300px;
+    height:20px;
+    border:1px solid #C189C6 ;
+    border-radius:10px;
+    font-size:12px;
+    font-family:"宋体" SimSun;
+    color: #C189C6 ;
+    font-weight:bold;
+    padding-left:30px;
+    box-sizing:border-box;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(#F1A501));
+}
+.showRectSpan1 {
+   position:absolute;
+   top:81px;
+   left:40px;
+   color:yellow;
+   font-weight:bold;
+}
+.showRectSpan2 {
+   position:absolute;
+   top:39px;
+   left:80px;
+   color:yellow;
+   font-weight:bold;
+}
+.showRectSpan3 {
+   position:absolute;
+   top:60px;
+   left:120px;
+   color:yellow;
+   font-weight:bold;
+}
+.showRectSpan4 {
+   position:absolute;
+   top:22px;
+   left:160px;
+   color:yellow;
+   font-weight:bold;
+}
+.showRectSpan5 {
+    position:absolute;
+   top:209px;
+   left:40px;
+   color:#814084;
+   font-weight:bold;
+   font-size:13px;
+}
+.showRectSpan6 {
+   position:absolute;
+   top:209px;
+   left:80px;
+   color:#814084;
+   font-weight:bold;
+   font-size:13px;
+}
+.showRectSpan7 {
+   position:absolute;
+   top:209px;
+   left:120px;
+   color:#814084;
+   font-size:13px;
+   font-weight:bold;
+}
+.showRectSpan8 {
+   position:absolute;
+   top:209px;
+   left:160px;
+   color:#814084;
+   font-weight:bold;
+   font-size:13px;
+}
+#smallMap_table {
+   border-collapse:collapse;
+   margin: -9px 0 0 20px;
+   font-size:12px;
+}
+#smallMap_table td {
+     width:90px;
+     height:20px;
+     border:1px solid yellow;
+     text-align:center;
+     line-height:20px;
+     font-weight:bold;
+}
+#smallMap_table td.tit{
+     width:160px;
+}
+.closeXDT {
+    width:20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #ddd;
+}
+/*头部button*/
+.WEIXIN {
+        padding:0 5px;
+        border-radius:3px;
+        border: 1px solid #95B8E7;
+        background: -webkit-gradient(linear, left top, left bottom, from(#E9F1FC), to(#b6d6ff));
+        outline:none;
+      
+}
+    .WEIXIN:hover {
+     background:#E5F0FC;  
+    }
+.ZHENGZUAN {
+        padding:0 5px;
+        border-radius:3px;
+        border: 1px solid #95B8E7;
+        background: -webkit-gradient(linear, left top, left bottom, from(#E9F1FC), to(#b6d6ff));
+        outline:none;
+}
+.ZHENGZUAN:hover {
+  background:#E5F0FC;  
+}
+.DAIPAI {
+         padding:0 5px;
+        border-radius:3px;
+        border: 1px solid #95B8E7;
+        background: -webkit-gradient(linear, left top, left bottom, from(#E9F1FC), to(#b6d6ff));
+        outline:none;
+}
+.DAIPAI:hover {
+   background:#E5F0FC;  
+}

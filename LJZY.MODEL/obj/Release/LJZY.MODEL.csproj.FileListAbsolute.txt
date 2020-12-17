@@ -1,0 +1,10 @@
+E:\ProjectDemo\录井作业\LJZY.MODEL\bin\Release\LJZY.MODEL.dll
+E:\ProjectDemo\录井作业\LJZY.MODEL\bin\Release\LJZY.MODEL.pdb
+E:\ProjectDemo\录井作业\LJZY.MODEL\bin\Release\Telerik.Windows.Controls.DataVisualization.dll
+E:\ProjectDemo\录井作业\LJZY.MODEL\bin\Release\Telerik.Windows.Controls.dll
+E:\ProjectDemo\录井作业\LJZY.MODEL\bin\Release\Telerik.Windows.Data.dll
+E:\ProjectDemo\录井作业\LJZY.MODEL\obj\Release\LJZY.MODEL.csproj.CoreCompileInputs.cache
+E:\ProjectDemo\录井作业\LJZY.MODEL\obj\Release\LJZY.MODEL.csproj.CopyComplete
+E:\ProjectDemo\录井作业\LJZY.MODEL\obj\Release\LJZY.MODEL.dll
+E:\ProjectDemo\录井作业\LJZY.MODEL\obj\Release\LJZY.MODEL.pdb
+E:\ProjectDemo\录井作业\LJZY.MODEL\obj\Release\LJZY.MODEL.csprojAssemblyReference.cache
